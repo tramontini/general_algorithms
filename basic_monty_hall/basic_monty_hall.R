@@ -1,6 +1,7 @@
 library(DiagrammeR)
 library(bnlearn)
 
+# From https://www.curso-r.com/blog/2018-09-03-monty-hall/#header-extra-2
 # Gera os dados de escolhas
 simular_monty_hall <- function(z = 0) {
   v <- 1:3                                  # opcoes
